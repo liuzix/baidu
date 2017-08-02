@@ -55,3 +55,7 @@ __history/
 
 # Castalia statistics file
 *.stat
+
+OSX32/Debug/
+
+Win64/Debug/
