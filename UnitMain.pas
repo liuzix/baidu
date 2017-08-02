@@ -126,7 +126,7 @@ begin
   RSA.PublicKey.Clear;
   RSA.PublicKey.Modulus.CopyBuffer(Mybytes[29], 128);
   RSA.PublicKey.Exponent.CopyBuffer(Mybytes[159], 3);
-  Password := RSA.EncryptString('%^!@WD)^)*SM');
+  Password := RSA.EncryptString('*******');
   RSA.Free;          }
   RSAUtil := TRSAUtil.Create;
   RSAUtil.PublicKey.LoadFromStream(TStringStream.Create(PublicKey));
